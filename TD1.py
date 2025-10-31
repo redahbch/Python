@@ -33,10 +33,11 @@ print("La fréquence des mots est :", occMots(data))
 
 maxMots, maxOcc, moy = longueurmoy(data)
 print(f"Les mots les plus utilises sont : {maxMots} utilise {maxOcc} fois")
-print(f"Longueur moyenne des mots : {round(moy,2)} caractères")
+print("Longueur moyenne des mots :", moy, "caractères")
 print("Palindromes :", palindromes(data))
 
 freq = occMots(data)
 motmax, occmax, motmin, occmin = max_min_mots(freq)
 print(f"Mot le plus utilisé : '{motmax}' apparait {occmax} fois")
 print(f"Mot le moins utilisé : '{motmin}' apparait {occmin} fois")
+
